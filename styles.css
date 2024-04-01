@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a7a3a3;
+    background-image: url(tecnologia.webp); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: #310f0f00;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1;
+    margin: 0; 
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: rgb(6, 10, 245);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+}
+
+mark {
+    background-color: rgb(74, 121, 153);
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+#parrafoCentrado {
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 15px 10px 10px rgba(12, 11, 11, 0.945)
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-top: 40px;
+    padding: 0px;
+    font-size: 60px;
+    color: #0867d3;
+    text-shadow: 20px 10px 10px rgba(16, 1, 219, 0.945);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-titulo {
+    display:flex;
+    align-items:first baseline;
+}
+
+.logo-titulo img {
+    width: 100px; 
+    margin-right: 150px; 
+}
+
+.logo-titulo1{
+    float: left; 
+    padding: 1px;
+}
+
+.logo-titulo1 img {
+    width: 10x; 
+    margin-right: 50px; 
+}
+
+.logo-titulo2{
+    float: left; 
+    padding: 0px;
+}
+
+.logo-titulo2 img {
+    width: 100px; 
+    margin-right: 20px;
+     
+}
+.listaspagina1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.lista2{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Parrafo1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.parrafo2 {
+    font-size: 20px;
+}
+
+.parrafo3 {
+    text-decoration: underline;
+    font-weight: 1500;
+}
+
+.lista1 {
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+/* Estilos para el formulario */
+#formulario {
+    padding: 0,5px;
+    background-color: #75747400;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width:400px;
+    margin: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+footer {
+    background-color: #868282;
+    color: rgb(6, 22, 248);
+    text-align: center;
+    padding: 1px;
+}
