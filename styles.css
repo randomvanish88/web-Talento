@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #a7a3a3;
-    background-image: url(tecnologia.webp); 
+    background-image: url(principaimg2.jpg); 
     background-size: cover; 
     background-repeat: no-repeat; 
 }
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 mark {
-    background-color: rgb(74, 121, 153);
+    background-color: rgb(3, 8, 85);
     color: black;
 }
 
@@ -56,8 +56,8 @@ main {
     margin-top: 40px;
     padding: 0px;
     font-size: 60px;
-    color: #0867d3;
-    text-shadow: 20px 10px 10px rgba(16, 1, 219, 0.945);
+    color: #020858;
+    text-shadow: 20px 10px 10px rgba(17, 5, 185, 0.945);
     font-family: 'Times New Roman', Times, serif;
 }
 
