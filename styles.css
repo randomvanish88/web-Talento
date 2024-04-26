@@ -112,6 +112,39 @@ main {
     background-color:rgb(9, 130, 243); 
 }
 
+#viddeo {
+
+     display: flex;
+     justify-content: center; 
+     align-items: center; 
+     height: 100vh;
+     background-color: #f0f0f0;
+}
+
+#screenshot {
+    text-align: center; 
+}
+
+
+#screenshot img {
+    margin: 10px; 
+}
+
+#mapa{
+    text-align: center;
+}
+
+.parrafo3 {
+    text-align: center; 
+    color: #333; 
+}
+
+
+#video iframe {
+    padding-left: 23%;
+    max-width: 80%; 
+}
+
 .card {
     text-decoration: underline;
 }
@@ -156,7 +189,7 @@ main {
     font-family: fantasy;
 }
 
-/* Estilos para el formulario */
+
 #formulario {
     padding: 1px;
     background-color: #75747400;
